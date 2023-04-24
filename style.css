@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.cabecalho{
+    margin: 50px 30px;
+}
+.imagem__logo{
+    width: 389px; 
+    height: 94px;
+}
+body{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--body-bg-color);
+}
+
+.conteiner__pagina{
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-between;
+}
+.conteiner__pagina__texto{
+    /* position: absolute; */
+    margin: 92px 37px 0px 36px;
+    width: 647px;
+    height: 102px;
+    position: absolute;
+}
+.texto__principal__titulo{
+    color: var(--title-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+.texto__principal__subtitulo__um{
+    color: #FFFF;
+    font-size: 14px;
+    font-weight: 700;
+}
+.texto__principal__subtitulo__dois{
+    color: #FFFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.imagem__metade__pagina{
+    /* position: absolute; */
+    height: 780px;
+    width: 1175px;
+    margin-left: 376px;
+}
